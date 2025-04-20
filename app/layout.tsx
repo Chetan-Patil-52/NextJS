@@ -23,11 +23,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div>SiteName</div>
+        <div>NavBar</div>
         {children}
+        <div>Made by Chetan</div>
       </body>
     </html>
   );
