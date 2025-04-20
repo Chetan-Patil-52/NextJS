@@ -6,7 +6,7 @@ export default function SettingsLayout({
     return (
         <div>
             <header>
-                <h1>Settings</h1>
+                {/* <h1>Settings</h1> */}
             </header>
             <main>
                 {children}
